@@ -1,0 +1,83 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* reset css */
+p,
+h2 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/*  */
+
+#movies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  background-color: rgb(221, 221, 221);
+  margin: 0;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: rgb(242, 240, 240);
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.item div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+li {
+  margin-bottom: 16px;
+}
+
+.item img {
+  min-width: 150px;
+  min-height: 180px;
+  max-width: 150px;
+  max-height: 180px;
+  display: flex;
+  align-self: center;
+}
+
+.item .no-image {
+  min-width: 150px;
+  min-height: 180px;
+  max-width: 150px;
+  max-height: 180px;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.item .card {
+  display: flex;
+  flex-direction: column;
+}
